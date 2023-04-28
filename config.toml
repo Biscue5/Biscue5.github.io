@@ -1,0 +1,5 @@
+baseURL = 'http://Biscue5.com'
+languageCode = 'en-us'
+title = 'biscue'
+theme = 'ananke'
+publishDir = 'docs'
