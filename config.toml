@@ -1,6 +1,8 @@
-baseURL = "https://www.example.org/"
+baseURL = "https://Biscue5.github.io"
 languageCode = "en-us"
 theme = "aafu"
+
+publishDir = "docs"
 
 [build]
   writeStats = true
