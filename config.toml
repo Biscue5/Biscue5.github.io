@@ -8,4 +8,9 @@ publishDir = 'docs'
   name = "Biscue"
   bio = "Hello, there"
   location = "Japan"
-
+[[menu.main]]
+  weight = 1
+  identifier = "home"
+  name = "Home"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-home\" aria-hidden=\"true\"></i>"
+  url = "/"
