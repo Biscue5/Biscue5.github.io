@@ -1,6 +1,8 @@
 {
   "dependencies": {
-    "postcss": "^8.4.23",
     "postcss-cli": "^10.1.0"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.23"
   }
 }
