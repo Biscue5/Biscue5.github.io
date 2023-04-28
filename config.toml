@@ -3,3 +3,9 @@ languageCode = 'en-us'
 title = 'biscue'
 theme = 'ananke'
 publishDir = 'docs'
+
+params:
+  biscue_socials:
+    -name: twitter 
+    url: https://twitter.com
+    label: TND Twitter
