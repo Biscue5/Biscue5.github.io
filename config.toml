@@ -4,3 +4,8 @@ title = 'biscue'
 theme = 'ananke'
 publishDir = 'docs'
 
+[author]
+  name = "Biscue"
+  bio = "Hello, there"
+  location = "Japan"
+
