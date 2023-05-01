@@ -1217,9 +1217,6 @@ blockquote {
 .underline {
   text-decoration-line: underline !important;
 }
-.no-underline {
-  text-decoration-line: none !important;
-}
 .drop-shadow-md {
   --tw-drop-shadow: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06)) !important;
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow) !important;
@@ -1238,10 +1235,6 @@ blockquote {
 .hover\:bg-gray-400:hover {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(156 163 175 / var(--tw-bg-opacity)) !important;
-}
-.hover\:bg-gray-200:hover {
-  --tw-bg-opacity: 1 !important;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity)) !important;
 }
 .hover\:text-blue-700:hover {
   --tw-text-opacity: 1 !important;
@@ -1347,10 +1340,6 @@ blockquote {
 .dark .dark\:hover\:bg-gray-700:hover {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity)) !important;
-}
-.dark .dark\:hover\:bg-gray-800:hover {
-  --tw-bg-opacity: 1 !important;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity)) !important;
 }
 .dark .dark\:hover\:text-yellow-500:hover {
   --tw-text-opacity: 1 !important;
