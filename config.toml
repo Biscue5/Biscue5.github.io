@@ -111,7 +111,7 @@ publishDir = "docs"
             college = "Kyoto University"
             dates = "2022 - 2024"
         [[params.education.list]]
-            degree = "B.S. of Multi-Interdisciplinary Engineering"
+            degree = "B.S. in Emerging Multi-Interdisciplinary Engineering"
             college = "The University of Electro-Communications"
             dates = "2018 - 2022"
 
