@@ -113,8 +113,8 @@ publishDir = "docs"
             #thesis_title = "Effect of humans on other humans: a study of human behavior."
             #thesis_url = "#"
         [[params.education.list]]
-            degree = "B.S. in Subject"
-            college = "University of State-City"
+            degree = "B.S. of Multi-Interdisciplinary Engineering"
+            college = "The University of Electro-Communications"
             dates = "2018 - 2022"
 
     # Publication section
