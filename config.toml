@@ -90,11 +90,11 @@ publishDir = "docs"
         title = "Experiences"
         icon = "fas fa-briefcase"
 
-        #[[params.experience.list]]
-        #    position = "Job Title"
-        #    dates = "2018 - 2019"
-        #    url = "#"
-        #    company = "Company Name"
+        [[params.experience.list]]
+            position = "Software Engineer Intern"
+            dates = "Aug 2022 - Oct 2022"
+            url = "#"
+            company = "Morpho, Inc."
 
     # Education section
     [params.education]
