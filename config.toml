@@ -82,7 +82,8 @@ publishDir = "docs"
     [params.aboutme]
         title = "About Me"
         icon = "fas fa-user"
-        description = "I am ..."
+        description = "I am Tomoya Yoshida, a MS student in the Graduate School of Informatics at Kyoto University. \\
+        My interests: Vision-and-Language, Embdied AI."
 
     # Experience section
     [params.experience]
