@@ -36,7 +36,7 @@ publishDir = "docs"
         name = "Tomoya Yoshida"
         #tagline = "Master thesis"
         location = "M.S. student"
-        photo = "dog.jpg"
+        photo = "temp.jpg"
 
     # Section for links to social websites
     [params.social]
