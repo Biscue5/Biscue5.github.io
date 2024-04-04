@@ -107,6 +107,10 @@ publishDir = "docs"
         #    thesis_title = "Effect of humans on other humans: a study of human behavior."
         #    thesis_url = "#"
         [[params.education.list]]
+            degree = "Ph.D in Informatics"
+            college = "Kyoto University"
+            dates = "2024 - Present"
+        [[params.education.list]]
             degree = "M.S. in Informatics"
             college = "Kyoto University"
             dates = "2022 - 2024"
@@ -122,7 +126,7 @@ publishDir = "docs"
         #The order below determines the order in which the items appear in "Publications" section
         format = ["date", "authors", "title", "journal"]
         #If you don't want to group publications, comment the line below by adding # at the beginning
-        types = ["Conference"]
+        types = ["Preprint", "International Jornal, Conference, and Workshop", "Domestic Jornal, Conference, and Workshop"]
 
         [[params.publication.list]]
             title = "単語の階層関係に基づくデータ拡張を利用した画像キャプション生成の検討"
@@ -130,7 +134,15 @@ publishDir = "docs"
             date = "2023"
             journal = "言語処理学会第29回年次大会 (NLP2023)"
             url = "https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/P2-1.pdf"
-            type = "Conference"
+            type = "Domestic Jornal, Conference, and Workshop"
+
+        [[params.publication.list]]
+            title = "一人称視点に基づくテキスト駆動型アフォーダンス及び軌跡の学習"
+            authors = "吉田智哉, 栗田修平, 西村太一, 森信介"
+            date = "2024"
+            journal = "言語処理学会第30回年次大会 (NLP2024)"
+            url = "https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P7-15.pdf"
+            type = "Domestic Jornal, Conference, and Workshop"
 
     # Project section
     #[params.project]
