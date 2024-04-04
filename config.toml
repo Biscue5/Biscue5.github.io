@@ -142,7 +142,7 @@ publishDir = "docs"
             date = "2023"
             journal = "言語処理学会第29回年次大会 (NLP2023)"
             url = "https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/P2-1.pdf"
-            type = "Domestic Jornal, Conference, and Workshop"
+            type = "Domestic Journal, Conference, and Workshop"
 
         [[params.publication.list]]
             title = "一人称視点に基づくテキスト駆動型アフォーダンス及び軌跡の学習"
@@ -150,7 +150,7 @@ publishDir = "docs"
             date = "2024"
             journal = "言語処理学会第30回年次大会 (NLP2024)"
             url = "https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P7-15.pdf"
-            type = "Domestic Jornal, Conference, and Workshop"
+            type = "Domestic Journal, Conference, and Workshop"
 
     # Project section
     #[params.project]
