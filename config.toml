@@ -126,7 +126,15 @@ publishDir = "docs"
         #The order below determines the order in which the items appear in "Publications" section
         format = ["date", "authors", "title", "journal"]
         #If you don't want to group publications, comment the line below by adding # at the beginning
-        types = ["Preprint", "International Jornal, Conference, and Workshop", "Domestic Jornal, Conference, and Workshop"]
+        types = ["Preprint", "International Journal, Conference, and Workshop", "Domestic Journal, Conference, and Workshop"]
+
+        [[params.publication.list]]
+            title = "Text-driven Affordance Learning from Egocentric Vision"
+            authors = "Tomoya Yoshida, Shuhei Kurita, Taichi Nishimura, Shinsuke Mori"
+            date = "2024"
+            journal = "Arxiv:2404.02523"
+            url = "https://arxiv.org/abs/2404.02523"
+            type = "Preprint"
 
         [[params.publication.list]]
             title = "単語の階層関係に基づくデータ拡張を利用した画像キャプション生成の検討"
