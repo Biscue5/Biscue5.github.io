@@ -82,12 +82,18 @@ publishDir = "docs"
     [params.aboutme]
         title = "About Me"
         icon = "fas fa-user"
-        description = "I am Tomoya Yoshida, a MS student in the Graduate School of Informatics at Kyoto University. My interests: Vision-and-Language, Embdied AI."
+        description = "I am Tomoya Yoshida, a Ph.D. student in the Graduate School of Informatics at Kyoto University. My interests: Vision-and-Language."
 
     # Experience section
     [params.experience]
         title = "Experiences"
         icon = "fas fa-briefcase"
+
+        [[params.experience.list]]
+            position = "Research Assistant"
+            dates = "Aug 2023 - Present"
+            url = "#"
+            company = "RIKEN AIP"
 
         [[params.experience.list]]
             position = "Software Engineer Intern"
