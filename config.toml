@@ -143,6 +143,14 @@ publishDir = "docs"
             type = "Preprint"
 
         [[params.publication.list]]
+            title = "EgoOops: A Dataset for Mistake Action Detection from Egocentric Videos with Procedural Texts"
+            authors = "Haneji, Yuto and Nishimura, Taichi and Kameko, Hirotaka and Shirai, Keisuke and Yoshida, Tomoya and Kajimura, Keiya and Yamamoto, Koki and Cui, Taiyu and Nishimoto, Tomohiro and Mori, Shinsuke"
+            date = "2024"
+            journal = "Arxiv:2404.02523"
+            url = "https://arxiv.org/abs/2410.05343"
+            type = "Preprint"
+
+        [[params.publication.list]]
             title = "単語の階層関係に基づくデータ拡張を利用した画像キャプション生成の検討"
             authors = "吉田智哉, 西村太一, 亀甲博貴, 森信介"
             date = "2023"
