@@ -10,7 +10,7 @@ publishDir = "docs"
 [params]
     title = "Tomoya Yoshida"
     author = "Tomoya Yoshida"
-    description = "Biscue homepage"
+    description = "Biscue's homepage"
     #copyright = "short copyright message"
 
     [params.theme]
@@ -20,23 +20,16 @@ publishDir = "docs"
         showAttribute = false
         singlePage = false
 
-    #[params.favicons]
-    #    use = true
-    #    metas = '''
-    #    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    #    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    #   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    #   <link rel="manifest" href="site.webmanifest">
-    #    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#252627">
-    #   <link rel="shortcut icon" href="favicon.ico">
-    #    '''
+    [params.favicons]
+        use = false
+        metas = ""
 
     # Profile section
     [params.profile]
         name = "Tomoya Yoshida"
         #tagline = "Master thesis"
-        location = "M.S. student"
-        photo = "temp.jpg"
+        location = "Ph.D. student"
+        photo = "profile.jpg"
 
     # Section for links to social websites
     [params.social]
@@ -54,10 +47,10 @@ publishDir = "docs"
             icon = "fab fa-twitter"
             url = "https://twitter.com/Biscue_510"
             title = "Twitter"
-        #[[params.social.list]]
-        #    icon = "ai ai-google-scholar"
-        #    url = "#"
-        #    title = "Google Scholar"
+        [[params.social.list]]
+            icon = "ai ai-google-scholar"
+            url = "https://scholar.google.co.jp/citations?user=aGKub4UAAAAJ&hl=ja"
+            title = "Google Scholar"
         #[[params.social.list]]
         #    icon = "fab fa-researchgate"
         #    url = "#"
@@ -82,7 +75,7 @@ publishDir = "docs"
     [params.aboutme]
         title = "About Me"
         icon = "fas fa-user"
-        description = "I am Tomoya Yoshida, a Ph.D. student in the Graduate School of Informatics at Kyoto University. My interests: Vision-and-Language."
+        description = "I am Tomoya Yoshida, a Ph.D. student in the Graduate School of Informatics at Kyoto University. My interests: Vision-and-Language Understanding and Robotic Manipulation."
 
     # Experience section
     [params.experience]
