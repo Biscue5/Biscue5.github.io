@@ -7,6 +7,11 @@ publishDir = "docs"
 [build]
   writeStats = true
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
     title = "Tomoya Yoshida"
     author = "Tomoya Yoshida"
@@ -136,16 +141,16 @@ publishDir = "docs"
         [[params.publication.list]]
             title = "BioVL-QR: Egocentric Biochemical Vision-and-Language Dataset using Micro QR Codes"
             authors = "Tomohiro Nishimoto, Taichi Nishimura, Koki Yamamoto, Keisuke Shirai, Hirotaka Kameko, Yuto Haneji, Tomoya Yoshida, Keiya Kajimura, Taiyu Cui, Chihiro Nishiwaki, Eriko Daikoku, Natsuko Okuda, Fumihito Ono, and Shinsuke Mori"
-            date = "2024"
-            journal = "Arxiv:2404.02523"
-            url = "https://arxiv.org/pdf/2404.03161v2"
+            date = "2025"
+            journal = "Arxiv:2404.03161"
+            url = "https://arxiv.org/abs/2404.03161v2"
             type = "Preprint"
 
         [[params.publication.list]]
             title = "EgoOops: A Dataset for Mistake Action Detection from Egocentric Videos with Procedural Texts"
             authors = "Yuto Haneji, Taichi Nishimura, Hirotaka Kameko, Keisuke Shirai, Tomoya Yoshida, Keiya Kajimura, Koki Yamamoto, Taiyu Cui, Tomohiro Nishimoto, and Shinsuke Mori"
-            date = "2024"
-            journal = "Arxiv:2404.02523"
+            date = "2025"
+            journal = "Arxiv:2410.05343"
             url = "https://arxiv.org/abs/2410.05343"
             type = "Preprint"
 
