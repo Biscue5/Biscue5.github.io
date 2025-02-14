@@ -84,6 +84,12 @@ publishDir = "docs"
 
         [[params.experience.list]]
             position = "Research Assistant"
+            dates = "Feb 2024 - Present"
+            url = "#"
+            company = "NII LLMC"
+
+        [[params.experience.list]]
+            position = "Research Assistant"
             dates = "Aug 2023 - Present"
             url = "#"
             company = "RIKEN AIP"
@@ -128,19 +134,27 @@ publishDir = "docs"
         types = ["Preprint", "International Journal, Conference, and Workshop", "Domestic Journal, Conference, and Workshop"]
 
         [[params.publication.list]]
-            title = "Text-driven Affordance Learning from Egocentric Vision"
-            authors = "Tomoya Yoshida, Shuhei Kurita, Taichi Nishimura, Shinsuke Mori"
+            title = "BioVL-QR: Egocentric Biochemical Vision-and-Language Dataset using Micro QR Codes"
+            authors = "Tomohiro Nishimoto, Taichi Nishimura, Koki Yamamoto, Keisuke Shirai, Hirotaka Kameko, Yuto Haneji, Tomoya Yoshida, Keiya Kajimura, Taiyu Cui, Chihiro Nishiwaki, Eriko Daikoku, Natsuko Okuda, Fumihito Ono, and Shinsuke Mori"
             date = "2024"
             journal = "Arxiv:2404.02523"
-            url = "https://arxiv.org/abs/2404.02523"
+            url = "https://arxiv.org/pdf/2404.03161v2"
             type = "Preprint"
 
         [[params.publication.list]]
             title = "EgoOops: A Dataset for Mistake Action Detection from Egocentric Videos with Procedural Texts"
-            authors = "Haneji, Yuto and Nishimura, Taichi and Kameko, Hirotaka and Shirai, Keisuke and Yoshida, Tomoya and Kajimura, Keiya and Yamamoto, Koki and Cui, Taiyu and Nishimoto, Tomohiro and Mori, Shinsuke"
+            authors = "Yuto Haneji, Taichi Nishimura, Hirotaka Kameko, Keisuke Shirai, Tomoya Yoshida, Keiya Kajimura, Koki Yamamoto, Taiyu Cui, Tomohiro Nishimoto, and Shinsuke Mori"
             date = "2024"
             journal = "Arxiv:2404.02523"
             url = "https://arxiv.org/abs/2410.05343"
+            type = "Preprint"
+
+        [[params.publication.list]]
+            title = "Text-driven Affordance Learning from Egocentric Vision"
+            authors = "Tomoya Yoshida, Shuhei Kurita, Taichi Nishimura, and Shinsuke Mori"
+            date = "2024"
+            journal = "Arxiv:2404.02523"
+            url = "https://arxiv.org/abs/2404.02523"
             type = "Preprint"
 
         [[params.publication.list]]
