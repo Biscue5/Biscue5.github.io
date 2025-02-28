@@ -1,0 +1,200 @@
+baseURL = "https://biscue5.github.io"
+languageCode = "en-us"
+theme = "aafu"
+
+publishDir = "docs"
+
+[build]
+  writeStats = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+    title = "Tomoya Yoshida"
+    author = "Tomoya Yoshida"
+    description = "Biscue's homepage"
+    copyright = "© 2025 Tomoya Yoshida. This site uses the [aafu](https://github.com/darshanbaral/aafu) theme (MIT License)."
+
+    [params.theme]
+        # Available themes are 'light', 'dark', 'ocean', and 'pinkish'
+        mainTheme = "light"
+        # setting false below will hide 'aafu by darshan' displayed under the profile pic
+        showAttribute = false
+        singlePage = true
+
+    [params.favicons]
+        use = false
+
+    # Profile section
+    [params.profile]
+        name = "Tomoya Yoshida"
+        tagline = ""
+        #tagline = "Master thesis"
+        location = "Ph.D. student"
+        photo = "profile.jpg"
+
+    # Section for links to social websites
+    [params.social]
+        title = "Links"
+
+        [[params.social.list]]
+            icon = "fab fa-linkedin-in"
+            url = "#"
+            title = "LinkedIn"		
+        [[params.social.list]]
+            icon = "fab fa-github"
+            url = "https://github.com/Biscue5"
+            title = "GitHub"
+        [[params.social.list]]
+            icon = "fab fa-twitter"
+            url = "https://twitter.com/Biscue_510"
+            title = "Twitter"
+        [[params.social.list]]
+            icon = "ai ai-google-scholar"
+            url = "https://scholar.google.co.jp/citations?user=aGKub4UAAAAJ&hl=ja"
+            title = "Google Scholar"
+        #[[params.social.list]]
+        #    icon = "fab fa-researchgate"
+        #    url = "#"
+        #    title = "ResearchGate"
+
+    #Specify what is showin in the Accordion
+    [[params.showInAccordion]]
+        item = "aboutme"
+        expand = true   # true for the section that is initially expanded
+    [[params.showInAccordion]]
+        item = "experience"
+    [[params.showInAccordion]]
+        item = "education"
+    [[params.showInAccordion]]
+        item = "publication"
+    #[[params.showInAccordion]]
+    #    item = "project"
+    #[[params.showInAccordion]]
+    #    item = "skill"
+
+
+    [params.aboutme]
+        title = "About Me"
+        icon = "fas fa-user"
+        description = "I am Tomoya Yoshida, a Ph.D. student in the Graduate School of Informatics at Kyoto University. My interests: Vision-and-Language, Egocentric vision, and Robot learning."
+
+    # Experience section
+    [params.experience]
+        title = "Experiences"
+        icon = "fas fa-briefcase"
+
+        [[params.experience.list]]
+            position = "Research Assistant"
+            dates = "Feb 2024 - Present"
+            url = "#"
+            company = "NII LLMC"
+
+        [[params.experience.list]]
+            position = "Research Assistant"
+            dates = "Aug 2023 - Present"
+            url = "#"
+            company = "RIKEN AIP"
+
+        [[params.experience.list]]
+            position = "Software Engineer Intern"
+            dates = "Aug 2022 - Oct 2022"
+            url = "#"
+            company = "Morpho, Inc."
+
+    # Education section
+    [params.education]
+        title = "Education"
+        icon = "fas fa-graduation-cap"
+
+        #[[params.education.list]]
+        #    degree = "Ph.D. in Subject"
+        #    college = "University of State-City"
+        #    dates = "2013 - 2018"
+        #    thesis_title = "Effect of humans on other humans: a study of human behavior."
+        #    thesis_url = "#"
+        [[params.education.list]]
+            degree = "Ph.D in Informatics"
+            college = "Kyoto University"
+            dates = "2024 - Present"
+        [[params.education.list]]
+            degree = "M.S. in Informatics"
+            college = "Kyoto University"
+            dates = "2022 - 2024"
+        [[params.education.list]]
+            degree = "B.S. in Emerging Multi-Interdisciplinary Engineering"
+            college = "The University of Electro-Communications"
+            dates = "2018 - 2022"
+
+    # Publication section
+    [params.publication]
+        title = "Publications"
+        icon = "fas fa-book"
+        #The order below determines the order in which the items appear in "Publications" section
+        format = ["date", "authors", "title", "journal"]
+        #If you don't want to group publications, comment the line below by adding # at the beginning
+        types = ["Preprint", "International Journal, Conference, and Workshop", "Domestic Journal, Conference, and Workshop"]
+
+        [[params.publication.list]]
+            title = "BioVL-QR: Egocentric Biochemical Vision-and-Language Dataset using Micro QR Codes"
+            authors = "Tomohiro Nishimoto, Taichi Nishimura, Koki Yamamoto, Keisuke Shirai, Hirotaka Kameko, Yuto Haneji, Tomoya Yoshida, Keiya Kajimura, Taiyu Cui, Chihiro Nishiwaki, Eriko Daikoku, Natsuko Okuda, Fumihito Ono, and Shinsuke Mori"
+            date = "2025"
+            journal = "Arxiv:2404.03161"
+            url = "https://arxiv.org/abs/2404.03161v2"
+            type = "Preprint"
+
+        [[params.publication.list]]
+            title = "EgoOops: A Dataset for Mistake Action Detection from Egocentric Videos with Procedural Texts"
+            authors = "Yuto Haneji, Taichi Nishimura, Hirotaka Kameko, Keisuke Shirai, Tomoya Yoshida, Keiya Kajimura, Koki Yamamoto, Taiyu Cui, Tomohiro Nishimoto, and Shinsuke Mori"
+            date = "2025"
+            journal = "Arxiv:2410.05343"
+            url = "https://arxiv.org/abs/2410.05343"
+            type = "Preprint"
+
+        [[params.publication.list]]
+            title = "Text-driven Affordance Learning from Egocentric Vision"
+            authors = "Tomoya Yoshida, Shuhei Kurita, Taichi Nishimura, and Shinsuke Mori"
+            date = "2024"
+            journal = "Arxiv:2404.02523"
+            url = "https://arxiv.org/abs/2404.02523"
+            type = "Preprint"
+
+        [[params.publication.list]]
+            title = "単語の階層関係に基づくデータ拡張を利用した画像キャプション生成の検討"
+            authors = "吉田智哉, 西村太一, 亀甲博貴, 森信介"
+            date = "2023"
+            journal = "言語処理学会第29回年次大会 (NLP2023)"
+            url = "https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/P2-1.pdf"
+            type = "Domestic Journal, Conference, and Workshop"
+
+        [[params.publication.list]]
+            title = "一人称視点に基づくテキスト駆動型アフォーダンス及び軌跡の学習"
+            authors = "吉田智哉, 栗田修平, 西村太一, 森信介"
+            date = "2024"
+            journal = "言語処理学会第30回年次大会 (NLP2024)"
+            url = "https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P7-15.pdf"
+            type = "Domestic Journal, Conference, and Workshop"
+
+    # Project section
+    #[params.project]
+        #title = "Projects"
+        #icon = "fas fa-project-diagram"
+
+        #[[params.project.list]]
+        #    title = "Project 1"
+        #    url = "#"
+        #    description = "Description of the project"
+
+    # Skill section
+    #[params.skill]
+    #    title = "Skills"
+    #    panelId = "skill-panel"
+    #    icon = "fas fa-cogs"
+
+    #   [[params.skill.list]]
+    #        skill = "Skill 1, Skill 2"
+    #        skillrating = 90
+

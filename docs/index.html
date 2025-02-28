@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en-us" class="m-auto  light "><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>Tomoya Yoshida</title>
+
+<meta name="theme-color" content="" />
+<meta charset="utf-8" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<meta name="description" content="Biscue&#39;s homepage" />
+<meta name="author" content="Tomoya Yoshida" />
+<meta name="generator" content="aafu theme by Darshan in Hugo 0.145.0" />
+
+
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="//fonts.googleapis.com/css?family=Didact+Gothic%7CRoboto:400%7CRoboto+Mono"
+  />
+
+  
+  
+  <link href="/main.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/general.css" />
+  <link rel="stylesheet" href="/css/search.css" />
+
+  <script>
+    let html = document.querySelector("html");
+    let theme = window.localStorage.getItem("theme");
+
+    const setTheme = (theme) => {
+      html.classList.remove("light");
+      if (theme === "dark") {
+        html.classList.add("dark");
+        window.localStorage.setItem("theme", "dark");
+      } else {
+        html.classList.remove("dark");
+        window.localStorage.setItem("theme", "light");
+      }
+      fixThemeToggleIcon(theme);
+    };
+
+    const fixThemeToggleIcon = (theme) => {
+      let themeToggle = document.querySelector(".theme-toggle");
+      if (themeToggle) {
+        if (theme === "dark") {
+          themeToggle.classList.remove("fa-moon");
+          themeToggle.classList.add("fa-sun");
+        } else {
+          themeToggle.classList.remove("fa-sun");
+          themeToggle.classList.add("fa-moon");
+        }
+      }
+    };
+
+    if (theme == null) {
+      if (html.classList.contains("dark")) {
+        theme = "dark";
+      } else if (html.classList.contains("light")) {
+        theme = "light";
+      } else {
+        
+        const prefersDark = window.matchMedia(
+          "(prefers-color-scheme: dark)"
+        ).matches;
+        if (prefersDark) {
+          theme = "dark";
+        } else {
+          theme = "light";
+        }
+      }
+    }
+
+    setTheme(theme);
+
+    const toggleTheme = () => {
+      html.classList.contains("dark") ? setTheme("light") : setTheme("dark");
+    };
+
+    window.onload = () => {
+      fixThemeToggleIcon(theme);
+
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+
+    window.onresize = () => {
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+  </script>
+</head>
+<body class="h-screen p-2 m-auto max-w-4xl flex flex-col">
+    
+    <main class="grow">
+<div class="grid grid-cols-1 md:grid-cols-5 gap-2 sm py-2">
+  <div class="col-span-2">
+    <div class="bg-gray-300 dark:bg-darker drop-shadow-md p-2 rounded-t-lg">
+      <div class="flex flex-col justify-center">
+        <div
+  class="w-full p-2 flex justify-center align-middle profile-photo-container"
+>
+  <img
+    class="rounded-sm"
+    src="/images/profile.jpg"
+    alt="Tomoya Yoshida"
+  />
+</div>
+
+        <div class="px-2 text-center">
+          <h1 class="mb-0">Tomoya Yoshida</h1>
+<h2 class="mb-0"></h2>
+<h3 class="mb-4">Ph.D. student</h3>
+<div class="mb-4 flex flex-wrap justify-center">
+  
+  <div class="mx-2">
+    <a class="text-2xl" href="#">
+      <i class="mt-1 fab fa-linkedin-in"></i>
+    </a>
+  </div>
+  
+  <div class="mx-2">
+    <a class="text-2xl" href="https://github.com/Biscue5">
+      <i class="mt-1 fab fa-github"></i>
+    </a>
+  </div>
+  
+  <div class="mx-2">
+    <a class="text-2xl" href="https://twitter.com/Biscue_510">
+      <i class="mt-1 fab fa-twitter"></i>
+    </a>
+  </div>
+  
+  <div class="mx-2">
+    <a class="text-2xl" href="https://scholar.google.co.jp/citations?user=aGKub4UAAAAJ&amp;hl=ja">
+      <i class="mt-1 ai ai-google-scholar"></i>
+    </a>
+  </div>
+  
+</div>
+
+          
+        </div>
+      </div>
+    </div>
+    <footer class="text-sm text-center border-t border-gray-500  bg-gray-200 dark:bg-dark rounded-b-lg py-2 ">
+  <p class="markdownify">© 2025 Tomoya Yoshida. This site uses the <a href="https://github.com/darshanbaral/aafu">aafu</a> theme (MIT License).</p>
+  <p style="font-size:0px;">
+    <i>
+      <a href="https://github.com/darshanbaral/aafu">
+        aafu
+      </a>
+    </i>
+    by
+    <a href="https://www.darshanbaral.com/">
+      darshan
+    </a>
+  </p>
+
+  
+  <i
+class="fas fa-sun theme-toggle text-blue-500 hover:text-blue-700 dark:text-yellow-300 dark:hover:text-yellow-500 cursor-pointer text-lg mr-9 sm:mr-0"
+onclick="lightDark(this)"
+></i>
+
+
+</footer>
+
+  </div>
+  <div class="col-span-3 relative">
+    
+    <div class="px-2">
+      <h2 class="accordion active">
+        
+        <p
+         
+          onclick="expandAccordion(this)"
+          style="cursor: pointer"
+        >
+          <i class="fas fa-user"></i>
+          About Me</p>
+      </h2>
+
+      <div
+        class="panel overflow-hidden px-2 ml-2"
+        
+      >
+        <div class=""><p class="markdownify">
+  I am Tomoya Yoshida, a Ph.D. student in the Graduate School of Informatics at Kyoto University. My interests: Vision-and-Language, Egocentric vision, and Robot learning.
+</p>
+</div>
+      </div>
+    </div>
+    
+    <div class="px-2">
+      <h2 class="accordion">
+        
+        <p
+         
+          onclick="expandAccordion(this)"
+          style="cursor: pointer"
+        >
+          <i class="fas fa-briefcase"></i>
+          Experiences</p>
+      </h2>
+
+      <div
+        class="panel overflow-hidden px-2 ml-2"
+        
+      >
+        <div class="">
+<h4 style="text-decoration: underline;">Research Assistant</h4>
+<p >
+  Feb 2024 - Present &middot; 
+  <a href="#">NII LLMC</a>
+  
+</p>
+
+
+
+<h4 style="text-decoration: underline;">Research Assistant</h4>
+<p >
+  Aug 2023 - Present &middot; 
+  <a href="#">RIKEN AIP</a>
+  
+</p>
+
+
+
+<h4 style="text-decoration: underline;">Software Engineer Intern</h4>
+<p >
+  Aug 2022 - Oct 2022 &middot; 
+  <a href="#">Morpho, Inc.</a>
+  
+</p>
+
+
+
+</div>
+      </div>
+    </div>
+    
+    <div class="px-2">
+      <h2 class="accordion">
+        
+        <p
+         
+          onclick="expandAccordion(this)"
+          style="cursor: pointer"
+        >
+          <i class="fas fa-graduation-cap"></i>
+          Education</p>
+      </h2>
+
+      <div
+        class="panel overflow-hidden px-2 ml-2"
+        
+      >
+        <div class="">
+
+<h4 style="text-decoration: underline;">Ph.D in Informatics</h4>
+<p >2024 - Present &middot; Kyoto University</p>
+
+
+
+<h4 style="text-decoration: underline;">M.S. in Informatics</h4>
+<p >2022 - 2024 &middot; Kyoto University</p>
+
+
+
+<h4 style="text-decoration: underline;">B.S. in Emerging Multi-Interdisciplinary Engineering</h4>
+<p >2018 - 2022 &middot; The University of Electro-Communications</p>
+
+
+</div>
+      </div>
+    </div>
+    
+    <div class="px-2">
+      <h2 class="accordion">
+        
+        <p
+         
+          onclick="expandAccordion(this)"
+          style="cursor: pointer"
+        >
+          <i class="fas fa-book"></i>
+          Publications</p>
+      </h2>
+
+      <div
+        class="panel overflow-hidden px-2 ml-2"
+        
+      >
+        <div class="">
+
+
+<h4 style="text-decoration: underline;">Preprint</h4><p class="foo indent-8">2025.
+Tomohiro Nishimoto, Taichi Nishimura, Koki Yamamoto, Keisuke Shirai, Hirotaka Kameko, Yuto Haneji, Tomoya Yoshida, Keiya Kajimura, Taiyu Cui, Chihiro Nishiwaki, Eriko Daikoku, Natsuko Okuda, Fumihito Ono, and Shinsuke Mori.
+
+
+<a href="https://arxiv.org/abs/2404.03161v2">
+  <em>BioVL-QR: Egocentric Biochemical Vision-and-Language Dataset using Micro QR Codes.</em>
+</a>
+
+
+Arxiv:2404.03161.
+</p>
+<p class="foo indent-8">2025.
+Yuto Haneji, Taichi Nishimura, Hirotaka Kameko, Keisuke Shirai, Tomoya Yoshida, Keiya Kajimura, Koki Yamamoto, Taiyu Cui, Tomohiro Nishimoto, and Shinsuke Mori.
+
+
+<a href="https://arxiv.org/abs/2410.05343">
+  <em>EgoOops: A Dataset for Mistake Action Detection from Egocentric Videos with Procedural Texts.</em>
+</a>
+
+
+Arxiv:2410.05343.
+</p>
+<p class="foo indent-8">2024.
+Tomoya Yoshida, Shuhei Kurita, Taichi Nishimura, and Shinsuke Mori.
+
+
+<a href="https://arxiv.org/abs/2404.02523">
+  <em>Text-driven Affordance Learning from Egocentric Vision.</em>
+</a>
+
+
+Arxiv:2404.02523.
+</p>
+
+
+<h4 style="text-decoration: underline;">International Journal, Conference, and Workshop</h4>
+
+<h4 style="text-decoration: underline;">Domestic Journal, Conference, and Workshop</h4><p class="foo indent-8">2023.
+吉田智哉, 西村太一, 亀甲博貴, 森信介.
+
+
+<a href="https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/P2-1.pdf">
+  <em>単語の階層関係に基づくデータ拡張を利用した画像キャプション生成の検討.</em>
+</a>
+
+
+言語処理学会第29回年次大会 (NLP2023).
+</p>
+<p class="foo indent-8">2024.
+吉田智哉, 栗田修平, 西村太一, 森信介.
+
+
+<a href="https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P7-15.pdf">
+  <em>一人称視点に基づくテキスト駆動型アフォーダンス及び軌跡の学習.</em>
+</a>
+
+
+言語処理学会第30回年次大会 (NLP2024).
+</p>
+
+
+
+</div>
+      </div>
+    </div>
+    
+
+    <script src="/js/accordion.js"></script>
+  </div>
+</div>
+
+    </main>
+    
+  </body>
+</html>

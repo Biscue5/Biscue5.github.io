@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en-us" class="m-auto  light "><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>Tomoya Yoshida</title>
+
+<meta name="theme-color" content="" />
+<meta charset="utf-8" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<meta name="description" content="Biscue&#39;s homepage" />
+<meta name="author" content="Tomoya Yoshida" />
+<meta name="generator" content="aafu theme by Darshan in Hugo 0.145.0" />
+
+
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="//fonts.googleapis.com/css?family=Didact+Gothic%7CRoboto:400%7CRoboto+Mono"
+  />
+
+  
+  
+  <link href="/main.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/general.css" />
+  <link rel="stylesheet" href="/css/search.css" />
+
+  <script>
+    let html = document.querySelector("html");
+    let theme = window.localStorage.getItem("theme");
+
+    const setTheme = (theme) => {
+      html.classList.remove("light");
+      if (theme === "dark") {
+        html.classList.add("dark");
+        window.localStorage.setItem("theme", "dark");
+      } else {
+        html.classList.remove("dark");
+        window.localStorage.setItem("theme", "light");
+      }
+      fixThemeToggleIcon(theme);
+    };
+
+    const fixThemeToggleIcon = (theme) => {
+      let themeToggle = document.querySelector(".theme-toggle");
+      if (themeToggle) {
+        if (theme === "dark") {
+          themeToggle.classList.remove("fa-moon");
+          themeToggle.classList.add("fa-sun");
+        } else {
+          themeToggle.classList.remove("fa-sun");
+          themeToggle.classList.add("fa-moon");
+        }
+      }
+    };
+
+    if (theme == null) {
+      if (html.classList.contains("dark")) {
+        theme = "dark";
+      } else if (html.classList.contains("light")) {
+        theme = "light";
+      } else {
+        
+        const prefersDark = window.matchMedia(
+          "(prefers-color-scheme: dark)"
+        ).matches;
+        if (prefersDark) {
+          theme = "dark";
+        } else {
+          theme = "light";
+        }
+      }
+    }
+
+    setTheme(theme);
+
+    const toggleTheme = () => {
+      html.classList.contains("dark") ? setTheme("light") : setTheme("dark");
+    };
+
+    window.onload = () => {
+      fixThemeToggleIcon(theme);
+
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+
+    window.onresize = () => {
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+  </script>
+</head>
+<body class="h-screen p-2 m-auto max-w-4xl flex flex-col">
+    
+    <main class="grow">
+<div class="prose dark:prose-invert max-w-none">
+  <h1 class="standard font-italic">
+    #Fringilla</h1>
+  
+  <div class="">
+    <div
+      class="rounded-sm hover:bg-gray-400 dark:hover:bg-darker flex flex-row items-center justify-start accordion mt-0 mb-0 p-2 active"
+    >
+      <i
+        onclick="expandAccordion(this)"
+        class="cursor-pointer chevron p-2 mr-4 fas fa-chevron-right rounded-sm text-blue-500 dark:text-gray-400 hover:bg-gray-300 dark:hover:bg-gray-700"
+      ></i>
+      <a href="/blog/post_3/"
+        ><h2 class="accordion m-0">luctus enim ultricies auctor pulvinar nam etiam</h2></a
+      >
+    </div>
+    <div
+      id="panel-item-0"
+      class="panel metadata-panel overflow-hidden bg-gray-200 dark:bg-dark"
+    >
+      <div class="metadata p-2"><p class="mt-0 mb-0 text-sm">January 6, 2018</p>
+<p class="mt-1 mb-0 text-sm">Reading Time: 2 minutes</p>
+ 
+
+<p class="metadata-value mt-1 mb-0 text-sm taxa taxa-container-div list-categories">
+  Categories: 
+  <a
+    class="metadata-tags hover:no-underline"
+    href="/categories/diam-aliqua"
+    title="categories"
+  >
+    #diam aliqua</a>
+  
+  <a
+    class="metadata-tags hover:no-underline"
+    href="/categories/fringilla"
+    title="categories"
+  >
+    #fringilla</a>
+  
+</p>
+
+
+
+<p class="metadata-value mt-1 mb-0 text-sm taxa taxa-container-div list-tags">
+  Tags: 
+  <a
+    class="metadata-tags hover:no-underline"
+    href="/tags/mollis-urna"
+    title="tags"
+  >
+    #mollis urna</a>
+  
+  <a
+    class="metadata-tags hover:no-underline"
+    href="/tags/notes"
+    title="tags"
+  >
+    #notes</a>
+  
+  <a
+    class="metadata-tags hover:no-underline"
+    href="/tags/laoreet"
+    title="tags"
+  >
+    #laoreet</a>
+  
+</p>
+
+
+</div>
+    </div>
+  </div>
+  
+</div>
+<script src="/js/accordion.js"></script>
+<div class="my-6 flex justify-center pagination-links">
+  
+</div>
+
+    </main>
+    
+  </body>
+</html>
