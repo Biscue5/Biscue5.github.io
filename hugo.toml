@@ -139,6 +139,13 @@ publishDir = "docs"
         types = ["Preprint", "International Journal, Conference, and Workshop", "Domestic Journal, Conference, and Workshop"]
 
         [[params.publication.list]]
+            title = "Generating 6DoF Object Manipulation Trajectories from Action Description in Egocentric Vision"
+            authors = "Tomoya Yoshida, Shuhei Kurita, Taichi Nishimura, and Shinsuke Mori"
+            date = "2025"
+            journal = "CVPR"
+            type = "International Journal, Conference, and Workshop"
+
+        [[params.publication.list]]
             title = "BioVL-QR: Egocentric Biochemical Vision-and-Language Dataset using Micro QR Codes"
             authors = "Tomohiro Nishimoto, Taichi Nishimura, Koki Yamamoto, Keisuke Shirai, Hirotaka Kameko, Yuto Haneji, Tomoya Yoshida, Keiya Kajimura, Taiyu Cui, Chihiro Nishiwaki, Eriko Daikoku, Natsuko Okuda, Fumihito Ono, and Shinsuke Mori"
             date = "2025"

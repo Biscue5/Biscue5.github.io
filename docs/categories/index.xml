@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on </title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://biscue5.github.io/categories/</link>
     <description>Recent content in Categories on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 19 Nov 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://biscue5.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Syntax</title>
-      <link>http://localhost:1313/categories/syntax/</link>
+      <link>https://biscue5.github.io/categories/syntax/</link>
       <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/syntax/</guid>
+      <guid>https://biscue5.github.io/categories/syntax/</guid>
       <description></description>
     </item>
     <item>
       <title>Themes</title>
-      <link>http://localhost:1313/categories/themes/</link>
+      <link>https://biscue5.github.io/categories/themes/</link>
       <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/themes/</guid>
+      <guid>https://biscue5.github.io/categories/themes/</guid>
       <description></description>
     </item>
     <item>
       <title>Diam Aliqua</title>
-      <link>http://localhost:1313/categories/diam-aliqua/</link>
+      <link>https://biscue5.github.io/categories/diam-aliqua/</link>
       <pubDate>Sat, 06 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/diam-aliqua/</guid>
+      <guid>https://biscue5.github.io/categories/diam-aliqua/</guid>
       <description></description>
     </item>
     <item>
       <title>Fringilla</title>
-      <link>http://localhost:1313/categories/fringilla/</link>
+      <link>https://biscue5.github.io/categories/fringilla/</link>
       <pubDate>Sat, 06 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/fringilla/</guid>
+      <guid>https://biscue5.github.io/categories/fringilla/</guid>
       <description></description>
     </item>
   </channel>
