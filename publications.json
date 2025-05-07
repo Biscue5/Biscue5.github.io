@@ -1,0 +1,52 @@
+{
+  "publications": [
+    {
+      "title": "Generating 6DoF Object Manipulation Trajectories from Action Description in Egocentric Vision",
+      "category": "international-conference",
+      "authors": ["Tomoya Yoshida", "Shuhei Kurita", "Taichi Nishimura", "Shinsuke Mori"],
+      "venue": "CVPR 2025 (highlight)",
+      "selected": true,
+      "links": { "pdf": "https://..."}
+    },
+    {
+      "title": "Text-driven Affordance Learning from Egocentric Vision",
+      "category": "international-journal",
+      "authors": ["Tomoya Yoshida", "Shuhei Kurita", "Taichi Nishimura", "Shinsuke Mori"],
+      "venue": "Advanced Robotics (minor revision)",
+      "selected": false,
+      "links": { "pdf": "https://..." }
+    },
+    {
+      "title": "BioVL-QR: Egocentric Biochemical Vision-and-Language Dataset using Micro QR Codes",
+      "category": "preprint",
+      "authors": ["Tomohiro Nishimoto", "Taichi Nishimura", "Koki Yamamoto", "Keisuke Shirai", "Hirotaka Kameko", "Yuto Haneji", "Tomoya Yoshida", "Keiya Kajimura", "Taiyu Cui", "Chihiro Nishiwaki", "Eriko Daikoku", "Natsuko Okuda", "Fumihito Ono", "Shinsuke Mori"],
+      "venue": "Arxiv:2404.03161 (under review)",
+      "selected": false,
+      "links": { "pdf": "https://arxiv.org/abs/2404.03161v2" }
+    },
+    {
+      "title": "EgoOops: A Dataset for Mistake Action Detection from Egocentric Videos with Procedural Texts",
+      "category": "preprint",
+      "authors": ["Yuto Haneji", "Taichi Nishimura", "Hirotaka Kameko", "Keisuke Shirai", "Tomoya Yoshida", "Keiya Kajimura", "Koki Yamamoto", "Taiyu Cui", "Tomohiro Nishimoto", "Shinsuke Mori"],
+      "venue": "Arxiv:2410.05343 (under review)",
+      "selected": false,
+      "links": { "pdf": "https://arxiv.org/abs/2410.05343" }
+    },
+    {
+      "title": "一人称視点に基づくテキスト駆動型アフォーダンス及び軌跡の学習",
+      "category": "domestic",
+      "authors": ["吉田智哉", "栗田修平", "西村太一", "森信介"],
+      "venue": "言語処理学会第30回年次大会 (NLP2024)",
+      "selected": false,
+      "links": { "pdf": "https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P7-15.pdf" }
+    },
+    {
+      "title": "単語の階層関係に基づくデータ拡張を利用した画像キャプション生成の検討",
+      "category": "domestic",
+      "authors": ["吉田智哉", "西村太一", "亀甲博貴", "森信介"],
+      "venue": "言語処理学会第29回年次大会 (NLP2023)",
+      "selected": false,
+      "links": {"pdf": "https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/P2-1.pdf"}
+    }
+  ]
+}
