@@ -14,7 +14,7 @@
       "authors": ["Tomoya Yoshida", "Shuhei Kurita", "Taichi Nishimura", "Shinsuke Mori"],
       "venue": "Advanced Robotics (minor revision)",
       "selected": false,
-      "links": { "pdf": "https://..." }
+      "links": { "pdf": "https://arxiv.org/abs/2404.02523" }
     },
     {
       "title": "BioVL-QR: Egocentric Biochemical Vision-and-Language Dataset using Micro QR Codes",
