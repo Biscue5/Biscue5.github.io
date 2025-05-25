@@ -18,9 +18,9 @@
     },
     {
       "title": "BioVL-QR: Egocentric Biochemical Vision-and-Language Dataset using Micro QR Codes",
-      "category": "preprint",
+      "category": "international-conference",
       "authors": ["Tomohiro Nishimoto", "Taichi Nishimura", "Koki Yamamoto", "Keisuke Shirai", "Hirotaka Kameko", "Yuto Haneji", "Tomoya Yoshida", "Keiya Kajimura", "Taiyu Cui", "Chihiro Nishiwaki", "Eriko Daikoku", "Natsuko Okuda", "Fumihito Ono", "Shinsuke Mori"],
-      "venue": "Arxiv:2404.03161 (under review)",
+      "venue": "ICIP 2025",
       "selected": false,
       "links": { "pdf": "https://arxiv.org/abs/2404.03161v2" }
     },
