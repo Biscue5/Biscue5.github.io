@@ -6,7 +6,7 @@
       "authors": ["Tomoya Yoshida", "Shuhei Kurita", "Taichi Nishimura", "Shinsuke Mori"],
       "venue": "CVPR 2025 (highlight)",
       "selected": true,
-      "links": { "pdf": "https://..."}
+      "links": { "pdf": "https://www.lsta.media.kyoto-u.ac.jp/publications/yoshida-CVPR2025.pdf", "code": "https://github.com/Biscue5/EgoScaler"}
     },
     {
       "title": "Text-driven Affordance Learning from Egocentric Vision",
