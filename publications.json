@@ -1,6 +1,14 @@
 {
   "publications": [
     {
+      "title": "BioVL-QR: Egocentric Biochemical Vision-and-Language Dataset using Micro QR Codes",
+      "category": "international-conference",
+      "authors": ["Tomohiro Nishimoto", "Taichi Nishimura", "Koki Yamamoto", "Keisuke Shirai", "Hirotaka Kameko", "Yuto Haneji", "Tomoya Yoshida", "Keiya Kajimura", "Taiyu Cui", "Chihiro Nishiwaki", "Eriko Daikoku", "Natsuko Okuda", "Fumihito Ono", "Shinsuke Mori"],
+      "venue": "ICIP 2025",
+      "selected": false,
+      "links": { "pdf": "https://arxiv.org/abs/2404.03161v2" }
+    },
+    {
       "title": "Generating 6DoF Object Manipulation Trajectories from Action Description in Egocentric Vision",
       "category": "international-conference",
       "authors": ["Tomoya Yoshida", "Shuhei Kurita", "Taichi Nishimura", "Shinsuke Mori"],
@@ -15,14 +23,6 @@
       "venue": "Advanced Robotics",
       "selected": false,
       "links": { "pdf": "https://arxiv.org/abs/2404.02523" }
-    },
-    {
-      "title": "BioVL-QR: Egocentric Biochemical Vision-and-Language Dataset using Micro QR Codes",
-      "category": "international-conference",
-      "authors": ["Tomohiro Nishimoto", "Taichi Nishimura", "Koki Yamamoto", "Keisuke Shirai", "Hirotaka Kameko", "Yuto Haneji", "Tomoya Yoshida", "Keiya Kajimura", "Taiyu Cui", "Chihiro Nishiwaki", "Eriko Daikoku", "Natsuko Okuda", "Fumihito Ono", "Shinsuke Mori"],
-      "venue": "ICIP 2025",
-      "selected": false,
-      "links": { "pdf": "https://arxiv.org/abs/2404.03161v2" }
     },
     {
       "title": "EgoOops: A Dataset for Mistake Action Detection from Egocentric Videos with Procedural Texts",
