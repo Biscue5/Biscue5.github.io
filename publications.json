@@ -1,6 +1,14 @@
 {
   "publications": [
     {
+      "title": "EgoOops: A Dataset for Mistake Action Detection from Egocentric Videos with Procedural Texts",
+      "category": "international-conference",
+      "authors": ["Yuto Haneji", "Taichi Nishimura", "Hirotaka Kameko", "Keisuke Shirai", "Tomoya Yoshida", "Keiya Kajimura", "Koki Yamamoto", "Taiyu Cui", "Tomohiro Nishimoto", "Shinsuke Mori"],
+      "venue": "ICCV Workshop (SAUAFG) 2025",
+      "selected": false,
+      "links": { "pdf": "https://arxiv.org/abs/2410.05343" }
+    },
+    {
       "title": "BioVL-QR: Egocentric Biochemical Vision-and-Language Dataset using Micro QR Codes",
       "category": "international-conference",
       "authors": ["Tomohiro Nishimoto", "Taichi Nishimura", "Koki Yamamoto", "Keisuke Shirai", "Hirotaka Kameko", "Yuto Haneji", "Tomoya Yoshida", "Keiya Kajimura", "Taiyu Cui", "Chihiro Nishiwaki", "Eriko Daikoku", "Natsuko Okuda", "Fumihito Ono", "Shinsuke Mori"],
@@ -23,14 +31,6 @@
       "venue": "Advanced Robotics",
       "selected": false,
       "links": { "pdf": "https://arxiv.org/abs/2404.02523" }
-    },
-    {
-      "title": "EgoOops: A Dataset for Mistake Action Detection from Egocentric Videos with Procedural Texts",
-      "category": "preprint",
-      "authors": ["Yuto Haneji", "Taichi Nishimura", "Hirotaka Kameko", "Keisuke Shirai", "Tomoya Yoshida", "Keiya Kajimura", "Koki Yamamoto", "Taiyu Cui", "Tomohiro Nishimoto", "Shinsuke Mori"],
-      "venue": "Arxiv:2410.05343 (under review)",
-      "selected": false,
-      "links": { "pdf": "https://arxiv.org/abs/2410.05343" }
     },
     {
       "title": "一人称視点に基づくテキスト駆動型アフォーダンス及び軌跡の学習",
