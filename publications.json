@@ -1,6 +1,14 @@
 {
   "publications": [
     {
+      "title": "Developing Vision-Language-Action Model from Egocentric Videos",
+      "category": "preprint",
+      "authors": ["Tomoya Yoshida", "Shuhei Kurita", "Taichi Nishimura", "Shinsuke Mori"],
+      "venue": "arXiv",
+      "selected": false,
+      "links": { "pdf": "https://www.arxiv.org/abs/2509.21986" }
+    },
+    {
       "title": "EgoOops: A Dataset for Mistake Action Detection from Egocentric Videos with Procedural Texts",
       "category": "international-conference",
       "authors": ["Yuto Haneji", "Taichi Nishimura", "Hirotaka Kameko", "Keisuke Shirai", "Tomoya Yoshida", "Keiya Kajimura", "Koki Yamamoto", "Taiyu Cui", "Tomohiro Nishimoto", "Shinsuke Mori"],
