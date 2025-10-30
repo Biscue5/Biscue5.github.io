@@ -5,7 +5,7 @@
       "category": "preprint",
       "authors": ["Tomoya Yoshida", "Shuhei Kurita", "Taichi Nishimura", "Shinsuke Mori"],
       "venue": "arXiv",
-      "selected": false,
+      "selected": true,
       "links": { "pdf": "https://www.arxiv.org/abs/2509.21986" }
     },
     {
