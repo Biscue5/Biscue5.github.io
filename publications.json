@@ -2,9 +2,9 @@
   "publications": [
     {
       "title": "Developing Vision-Language-Action Model from Egocentric Videos",
-      "category": "preprint",
+      "category": "international-conference",
       "authors": ["Tomoya Yoshida", "Shuhei Kurita", "Taichi Nishimura", "Shinsuke Mori"],
-      "venue": "arXiv",
+      "venue": "ICRA 2026",
       "selected": true,
       "links": { "pdf": "https://www.arxiv.org/abs/2509.21986" }
     },
